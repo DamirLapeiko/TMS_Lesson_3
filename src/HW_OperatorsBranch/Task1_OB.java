@@ -1,11 +1,13 @@
+package HW_OperatorsBranch;
+
 import java.util.Scanner;
 
-public class Main {
+public class Task1_OB {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите номер месяца");
+        System.out.println("Введите число");
         int input = sc.nextInt();
-        switch (input){
+        switch (input) {
             case 1:
                 System.out.println("Зима");
                 break;
