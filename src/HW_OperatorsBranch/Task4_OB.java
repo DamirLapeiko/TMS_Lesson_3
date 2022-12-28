@@ -9,7 +9,7 @@ public class Task4_OB {
         int t = sc.nextInt();
         if (t > -5){
             System.out.println("Тепло");
-        } else if ( -5 >= t || t > -20){
+        } else if ( -5 >= t && t > -20){
             System.out.println("Нормально");
         } else if (t <= -20) {
             System.out.println("Холодно");
